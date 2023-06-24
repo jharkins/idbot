@@ -126,6 +126,11 @@ Initialize Git repository for the project, if you haven't already done so:
         git commit -m 'initial commit'
 
 In Heroku dashboard, create a new app named `demo-project`.
+
+To get heroku cli, in linux, shell, or WSL (like a boss), use:
+
+        curl https://cli-assets.heroku.com/install.sh | sh
+
 Initialize Heroku remote in the repository:
 
         heroku git:remote -a demo-project
