@@ -40,7 +40,8 @@
     "coverage": "jest --roots test --verbose --coverage",
     "watch-test": "jest --roots test --verbose --watch",
     "worker": "node scripts/worker.js",
-    "shell": "node --experimental-repl-await scripts/shell.js"
+    "shell": "node --experimental-repl-await scripts/shell.js",
+    "docker:dev": "docker-compose -f docker-compose.yml up"
   },
   "author": "",
   "license": "UNLICENSED"

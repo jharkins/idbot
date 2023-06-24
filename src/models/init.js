@@ -16,8 +16,8 @@ const dbInit = async (mongoUrl, options = {}) => {
     );
   }
 
-  mongoose.set("useCreateIndex", true);
-  mongoose.set("useFindAndModify", false);
+  // mongoose.set("useCreateIndex", true);
+  // mongoose.set("useFindAndModify", false);
 
   try {
     await mongoose.connect(mongoUrl, mongoOpts);
